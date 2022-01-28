@@ -1,4 +1,4 @@
-from rest_framework import viewsets, parsers, permissions
+from rest_framework import viewsets, parsers, permissions, generics
 
 from .. import serializer, models
 from ...base.permissions import IsAuthor
